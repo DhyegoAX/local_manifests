@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Tracking -->
+  <remote name="track" fetch="https://github.com" />
+  <remote name="gitea" fetch="https://gitea.com" />
+
+<!-- Additional -->
+  <project path="hardware/oplus" name="DhyegoAX/android_hardware_oplus" remote="track" revision="15.0-qpr1" />
+
+<!-- Trees -->
+  <project path="device/realme/ice" name="DhyegoAX/device_realme_ice" remote="track" revision="15.0-qpr1" />
+  <project path="vendor/realme/ice" name="DhyegoAX/vendor_realme_ice" remote="track" revision="15.0" />
+  <project path="kernel/oplus/RMX3461" name="DhyegoAX/android_kernel_oplus_RMX3461" remote="track" revision="15.0" />
+
+<!-- Keys -->
+  <project path="vendor/aosp/signing/keys" name="Vhmit/vendor_signing_keys" remote="gitea" revision="master" />
+
+</manifest>
